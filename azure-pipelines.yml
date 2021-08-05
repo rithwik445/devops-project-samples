@@ -18,7 +18,5 @@ jobs:
      runOnce:
         deploy:   
           steps:
-                - script: |
-                    npm install
-                    npm run build
+                - script:
                   displayName: 'npm install and build'
